@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Projekte/KiCad/CM4CB/libs/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name modules)(type KiCad)(uri C:/Projekte/KiCad/CM4CB/libs/walter-kicad-lib/modules)(options "")(descr ""))
+)
