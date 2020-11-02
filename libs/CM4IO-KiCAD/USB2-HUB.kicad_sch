@@ -1,6 +1,6 @@
-(kicad_sch (version 20200828) (generator eeschema)
+(kicad_sch (version 20201015) (generator eeschema)
 
-  (page 2 7)
+  (page 1 7)
 
   (paper "A4")
 
@@ -12,7 +12,7 @@
   )
 
   (lib_symbols
-    (symbol "CM4IO:AP2553W6"
+    (symbol "CM4IO:AP2553W6" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 3.81 -6.35 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -63,7 +63,7 @@
         )
       )
     )
-    (symbol "CM4IO:FSUSB42MX"
+    (symbol "CM4IO:FSUSB42MX" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 20.32 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -124,7 +124,7 @@
         )
       )
     )
-    (symbol "CM4IO:TPD4EUSB30" (pin_names (offset 0))
+    (symbol "CM4IO:TPD4EUSB30" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -0.635 8.89 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -423,7 +423,7 @@
         )
       )
     )
-    (symbol "CM4IO:USB_67298-4090" (pin_numbers hide)
+    (symbol "CM4IO:USB_67298-4090" (pin_numbers hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -5.08 21.6408 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -704,7 +704,7 @@
         )
       )
     )
-    (symbol "Connector:USB_OTG"
+    (symbol "Connector:USB_OTG" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -5.08 11.43 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -836,7 +836,7 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names hide)
+    (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -934,7 +934,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -983,7 +983,7 @@
         )
       )
     )
-    (symbol "Device:CP" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:CP" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1038,7 +1038,7 @@
         )
       )
     )
-    (symbol "Device:Crystal" (pin_numbers hide) (pin_names hide)
+    (symbol "Device:Crystal" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (id 0) (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1104,7 +1104,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -1142,7 +1142,7 @@
         )
       )
     )
-    (symbol "Interface_USB:USB2514B_Bi"
+    (symbol "Interface_USB:USB2514B_Bi" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -17.78 40.64 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1320,7 +1320,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0))
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1361,6 +1361,7 @@
     )
   )
 
+
   (junction (at 33.02 58.42) (diameter 1.016) (color 0 0 0 0))
   (junction (at 36.83 125.73) (diameter 1.016) (color 0 0 0 0))
   (junction (at 40.64 58.42) (diameter 1.016) (color 0 0 0 0))
@@ -1396,12 +1397,12 @@
   (junction (at 254 77.47) (diameter 1.016) (color 0 0 0 0))
   (junction (at 264.16 77.47) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 120.65 44.45))
-  (no_connect (at 246.38 127))
-  (no_connect (at 95.25 121.92))
-  (no_connect (at 95.25 124.46))
-  (no_connect (at 95.25 104.14))
   (no_connect (at 259.08 127))
+  (no_connect (at 120.65 44.45))
+  (no_connect (at 95.25 121.92))
+  (no_connect (at 246.38 127))
+  (no_connect (at 95.25 104.14))
+  (no_connect (at 95.25 124.46))
 
   (wire (pts (xy 27.305 58.42) (xy 33.02 58.42))
     (stroke (width 0) (type solid) (color 0 0 0 0))

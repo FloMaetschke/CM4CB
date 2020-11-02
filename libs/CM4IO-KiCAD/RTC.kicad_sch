@@ -1,6 +1,6 @@
-(kicad_sch (version 20200828) (generator eeschema)
+(kicad_sch (version 20201015) (generator eeschema)
 
-  (page 3 7)
+  (page 1 7)
 
   (paper "A4")
 
@@ -12,7 +12,7 @@
   )
 
   (lib_symbols
-    (symbol "CM4IO:74LVC1G07_copy"
+    (symbol "CM4IO:74LVC1G07_copy" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -2.54 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -31,7 +31,7 @@
       (property "ki_description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G07_copy_0_1"
@@ -81,7 +81,7 @@
         )
       )
     )
-    (symbol "CM4IO:EMC2301"
+    (symbol "CM4IO:EMC2301" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 13.97 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -134,7 +134,7 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x04" (pin_names hide)
+    (symbol "Connector_Generic:Conn_01x04" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -190,7 +190,7 @@
         )
       )
     )
-    (symbol "Device:Battery_Cell" (pin_numbers hide) (pin_names (offset 0) hide)
+    (symbol "Device:Battery_Cell" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "BT" (id 0) (at 2.54 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -256,7 +256,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -305,7 +305,7 @@
         )
       )
     )
-    (symbol "Device:Crystal_Small" (pin_numbers hide) (pin_names hide)
+    (symbol "Device:Crystal_Small" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -357,7 +357,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -395,7 +395,7 @@
         )
       )
     )
-    (symbol "Diode:BAT54C"
+    (symbol "Diode:BAT54C" (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0.635 -3.81 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -544,7 +544,7 @@
         )
       )
     )
-    (symbol "Timer_RTC:PCF8563T"
+    (symbol "Timer_RTC:PCF8563T" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -606,7 +606,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0))
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -646,6 +646,7 @@
       )
     )
   )
+
 
   (junction (at 57.658 45.72) (diameter 1.016) (color 0 0 0 0))
   (junction (at 106.68 140.97) (diameter 1.016) (color 0 0 0 0))
